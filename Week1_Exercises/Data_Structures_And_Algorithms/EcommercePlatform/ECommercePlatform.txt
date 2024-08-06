@@ -1,0 +1,26 @@
+Exercise 1: Inventory Management System
+Scenario: 
+You are developing an inventory management system for a warehouse. Efficient data storage and retrieval are crucial.
+Steps:
+1) Understand the Problem:
+     Explain why data structures and algorithms are essential in handling large inventories.
+          According to the latest estimates, 402.74 million terabytes of data are created daily. This is a huge amount of data out of which the majority is unstructured and messy. Therefore to organise this huge amount of data and optimise the query time, data structures are used. A data structure isn't merely used to organize data. It is also used to manage, restore, and store data. It provides efficient ways to access these data, to store and to use them.
+    Discuss the types of data structures suitable for this problem.
+    • ArrayList
+    • LinkedList
+    • Hashmaps
+2) Analysis
+i.Add Product
+    • Best Case: O(1)
+    • Average Case: O(1)
+    • Worst Case: O(n)
+ii.Update Product
+    • Best Case: O(1)
+    • Average Case: O(1)
+    • Worst Case: O(n)
+iii.Delete Product
+    • Best Case: O(1)
+    • Average Case: O(1)
+    • Worst Case: O(n)
+Optimization
+    • Hash Function: Using a good hash function to distribute keys uniformly across the hash table, reducing the likelihood of collisions and improving average-case
